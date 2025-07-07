@@ -1,0 +1,19 @@
+<h2>Student-Info Form</h2>
+
+<!--Interpolation-->
+<p>Welcome, {{studentName}}!</p>
+
+<!--Two way binding-->
+<input [(ngModel)]="studentName"
+(ngModelChange)="onNameChange($event)"
+[placeholder]="'Enter Name'"
+[ngStyle]="{
+  borderColor: isValidName ? 'green' : 'red'
+}" />
+
+<p [ngClass]="{
+    'valid-name': isValidName,
+    'invalid-name': !isValidName
+  }">Name must be more than 3 letters. No spaces, numbers, or special characters allowed.</p>
+
+<button>Submit</button>
