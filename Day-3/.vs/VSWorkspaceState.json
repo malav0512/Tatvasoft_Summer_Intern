@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\User_Managment",
+    "\\User_Managment\\User_Management.DataAccess",
+    "\\User_Managment\\User_Management.DataAccess\\Models",
+    "\\User_Managment\\User_Management.DataAccess\\Repositories",
+    "\\User_Managment\\User_Managment",
+    "\\User_Managment\\User_Managment\\Controllers"
+  ],
+  "SelectedNode": "\\User_Managment\\User_Management.DataAccess\\Repositories\\UserRepository.cs",
+  "PreviewInSolutionExplorer": false
+}
